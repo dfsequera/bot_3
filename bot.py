@@ -12,7 +12,7 @@ from datetime import datetime
 
 
 # Inicializar el bot de Telegram
-bot = telebot.TeleBot('5845836818:AAF4iGHTM4HdMUGeEjo62fpMf-bcQfhi8nQ')
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(commands=["start", "ayuda", "help"])
 def cmd_start(message):
